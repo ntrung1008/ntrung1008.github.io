@@ -19,6 +19,16 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <style> 
+      img {
+      width: 200px;
+      height: auto;
+      border-style :solid;
+    }
+      body{
+        background-color: gray;
+      }  
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +61,7 @@
     </nav>
 
     <!--About me -->
-    <div class="About me">
+    <div class="text-center">
       <section class="Introduction">
         <h1>Trung Nguyen</h1>
         <p>I am a Computer Science student at PSU.</p>
@@ -66,22 +76,24 @@
       </section>
     </div>
     <!--Portfolio-->
-    <div class="Portfolio">
+    <div class="text-center" id = "Portfolio">
       <h1>Portfolio</h1>
       <section class="Snake game">
         <h4>Snake Game</h4>
+        <p><img class="img-thumbnail" src="snakle_title.png"><img class="img-thumbnail" src="snake_gameplay.png"></p>
         <p>A basic two players snake game written in Rust.</p>
       </section>
       <section class="Adventure game">
         <h4>Adventure Game</h4>
+        <p><img src="adventure.png"></p>
         <p>A text based adventure game written in Java</p>
       </section>
     </div>
 
     <!-- footer-->
-    <footer>
+    <footer class ="text-center" id="social-footer-icons">
       <h1>Contact me</h1>
-      <div class="social-footer-icons">
+      <div class="social-footer-icons" >
         <a href="https://www.facebook.com/trung.nguyen.925"
           ><i class="fab fa-facebook-f"></i
         ></a>
@@ -91,6 +103,8 @@
         <a href="https://github.com/ntrung1008"
           ><i class="fab fa-github"></i
         ></a>
+        <p>trung_nguyen1008@yahoo.com</p>
+        <p>ntrung@pdx.edu</p>
       </div>
     </footer>
   </body>
