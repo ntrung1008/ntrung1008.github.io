@@ -78,16 +78,26 @@
     <!--Portfolio-->
     <div class="text-center bg-success" id = "Portfolio">
       <h1>Portfolio</h1>
-      <section class="Snake game">
-        <h4>Snake Game</h4>
-        <p><img class="img-thumbnail" src="snakle_title.png"><img class="img-thumbnail" src="snake_gameplay.png"></p>
-        <p>A basic two players snake game written in Rust.</p>
-      </section>
-      <section class="Adventure game">
-        <h4>Adventure Game</h4>
-        <p><img src="adventure.png"></p>
-        <p>A text based adventure game written in Java</p>
-      </section>
+      <div class="container">
+          <div class="row ">
+            <div class="col-6 align-self-center "><div class="card" style="width: 18rem; height :auto">
+                <img src="snake_gameplay.png" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Snake Game</h5>
+                  <p class="card-text">A basic snake game for up to two players written in Rust</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 align-self-center"><div class="card" style="width: 18rem; height :auto">
+                <img src="adventure.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Adventure Game</h5>
+                  <p class="card-text">A text based adventure game written in Python</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
     <!-- footer-->
