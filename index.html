@@ -7,59 +7,55 @@
     <title>Document</title>
     <style>
       .my_pic {
-      width: 15% !important;
-      height: auto !important;
-      border-style :solid;
-      border-radius: 50%;
+        width: 15% !important;
+        height: auto !important;
+        border-style: solid;
+        border-radius: 50%;
       }
-      .img-responsive{
-        width:100%;
-        display:block;
+      .img-responsive {
+        width: 100%;
+        display: block;
       }
-      .modal-pic{
+      .modal-pic {
         max-width: 70% !important;
-        height:auto;
-        margin:auto
+        height: auto;
+        margin: auto;
       }
-      .modal-body{
+      .modal-body {
         text-align: center;
         background-color: lightslategrey;
-        
       }
-      .modal-popup{
-        margin:auto
+      .modal-popup {
+        margin: auto;
       }
-      .modal-title{
-        background-color:lightgreen
+      .modal-title {
+        background-color: lightgreen;
       }
-      #container{
+      #container {
         text-align: center;
       }
-      footer{
+      footer {
         max-width: 70%;
-        margin:auto
+        margin: auto;
       }
-      p{
+      p {
         font-size: 20px;
       }
-      .Introduction{
+      .Introduction {
         width: 70%;
-        margin:auto
+        margin: auto;
       }
-      .navbar{
-        background-color:darkgrey;
-      }
-      #portfolio
-      {
-        width: 70%;
-        margin:auto;
+      .navbar {
         background-color: darkgrey;
       }
-      .demo-link{
-        color: lightgreen
+      #portfolio {
+        width: 70%;
+        margin: auto;
+        background-color: darkgrey;
       }
-      
-
+      .demo-link {
+        color: lightgreen;
+      }
     </style>
   </head>
   <body class="bg-dark">
@@ -79,9 +75,11 @@
 
       <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-                <a class="nav-link text-primary" href="Resume.html"><h2>Resume</h2></a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="Trung Nguyen Resume v1.pdf"
+              ><h2>Resume</h2></a
+            >
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#social-footer-icons"><h2>Contact</h2></a>
           </li>
@@ -93,59 +91,73 @@
     <div class="Intro text-center">
       <section class="Introduction bg-info">
         <h1>Trung Nguyen</h1>
-        <p>I'm a senior undergraduate at Portland State University studying Computer Science.
-          My most used programming languages are C++ and Javascript. I also have experience coding in C, Java, Python, and Rust.
+        <p>
+          I'm a senior undergraduate at Portland State University studying
+          Computer Science. My most used programming languages are C++ and
+          Javascript. I also have experience coding in C, Java, Python, and
+          Rust.
         </p>
         <p>
-          I was a Certified Nursing Assistant, but I decided to take some Computer Science classes. 
-          After a while, I became increasingly interested in software engineering and coding so I decided to switch my major.  
-          I haven’t looked back since!
+          I was a Certified Nursing Assistant, but I decided to take some
+          Computer Science classes. After a while, I became increasingly
+          interested in software engineering and coding so I decided to switch
+          my major. I haven’t looked back since!
         </p>
-        <img
-          class="img-circle my_pic"
-          src="pic.png"          
-          alt="Photo of me "
-        />
+        <img class="img-circle my_pic" src="pic.png" alt="Photo of me " />
       </section>
     </div>
     <!--Portfolio-->
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
       <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2>Portfolio</h2>
-                  <hr class="star-primary"/>
-              </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Portfolio</h2>
+            <hr class="star-primary" />
           </div>
-          <div class="row">
-              <div class="col-sm-6 portfolio-item">
-                  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                      <h4>ContextAR</h4>
-                      <img src="ContextAR.png" class="img-responsive" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-6 portfolio-item">
-                  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                      <h4>Pokedex</h4>
-                      <img src="Poke.png" class="img-responsive" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-6 portfolio-item">
-                  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                      <h4>ATAC Arcade</h4>
-                      <img src="arcade.png" class="img-responsive" alt="">
-                  </a>
-              </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal1"
+              class="portfolio-link"
+              data-toggle="modal"
+            >
+              <h4>ContextAR</h4>
+              <img src="ContextAR.png" class="img-responsive" alt="" />
+            </a>
           </div>
+          <div class="col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal2"
+              class="portfolio-link"
+              data-toggle="modal"
+            >
+              <h4>Pokedex</h4>
+              <img src="Poke.png" class="img-responsive" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal3"
+              class="portfolio-link"
+              data-toggle="modal"
+            >
+              <h4>ATAC Arcade</h4>
+              <img src="arcade.png" class="img-responsive" alt="" />
+            </a>
+          </div>
+        </div>
       </div>
-  </section>
-
+    </section>
 
     <!-- footer-->
-    <footer class ="text-center bg-secondary text-white" id="social-footer-icons">
+    <footer
+      class="text-center bg-secondary text-white"
+      id="social-footer-icons"
+    >
       <h1>Contact me</h1>
-      <div class="social-footer-icons" >
+      <div class="social-footer-icons">
         <a href="https://www.linkedin.com/in/trung-nguyen-14ab48135/">
           <i class="fab fa-linkedin fa-3x"></i>
         </a>
@@ -156,135 +168,247 @@
       <p>trung_nguyen1008@yahoo.com</p>
       <p>ntrung@pdx.edu</p>
     </footer>
-    <div class="portfolio-modal modal " id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div
+      class="portfolio-modal modal"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
       <div class="modal-content bg-dark">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="modal-popup">
-                      <div class="modal-body">
-                          <h2 class="modal-title">ContextAR</h2>
-                          <hr class="star-primary">
-                          <img src="ContextAR.png" class="img-responsive modal-pic" alt="ContextAR homepage">
-                          <p>A web application that helps foreign students learn English by guiding them to different locations</p>
-                          <p>Contribution: Google map feature. Start module feature. Share feature.</p>
-                          <ul class="list-inline item-details">
-                              <li><a class= "demo-link" href="https://capstonearteam.github.io/ar-app/#/">Try it here</a></li>
-                              <li><a class= "demo-link" href="https://youtu.be/P1wFhWiqwlI">Watch the Youtube demo here</a></li>
-                          </ul>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content bg-dark">
         <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="modal-popup">
-                    <div class="modal-body ">
-                        <h2 class="modal-title">Pokedex</h2>
-                        <hr class="star-primary">
-                        <img src="Poke.png" class="img-responsive modal-pic" alt="ContextAR homepage">
-                        <p>A Pokedex website written in Javascript</p>
-                        <p>Contribution: Search feature. Retrieve Pokemons, Regions, Moves lists </p>
-                        <ul class="list-inline item-details">
-                            <li><a class= "demo-link"  href="https://ntrung1008.github.io/FrontEnd_Pokedex/">Try it here</a></li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="modal-popup">
+              <div class="modal-body">
+                <h2 class="modal-title">ContextAR</h2>
+                <hr class="star-primary" />
+                <img
+                  src="ContextAR.png"
+                  class="img-responsive modal-pic"
+                  alt="ContextAR homepage"
+                />
+                <p>
+                  A web application that helps foreign students learn English by
+                  guiding them to different locations
+                </p>
+                <p>
+                  Contribution: Google map feature. Start module feature. Share
+                  feature.
+                </p>
+                <ul class="list-inline item-details">
+                  <li>
+                    <a
+                      class="demo-link"
+                      href="https://capstonearteam.github.io/ar-app/#/"
+                      >Try it here</a
+                    >
+                  </li>
+                  <li>
+                    <a class="demo-link" href="https://youtu.be/P1wFhWiqwlI"
+                      >Watch the Youtube demo here</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  <i class="fa fa-times"></i> Close
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content bg-dark">
-      <div class="close-modal" data-dismiss="modal">
+    <div
+      class="portfolio-modal modal"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content bg-dark">
+        <div class="close-modal" data-dismiss="modal">
           <div class="lr">
-              <div class="rl">
-              </div>
+            <div class="rl"></div>
           </div>
-      </div>
-      <div class="container">
+        </div>
+        <div class="container">
           <div class="row">
-              <div class="modal-popup">
-                  <div class="modal-body ">
-                      <h2 class="modal-title">ATAC Arcade</h2>
-                      <hr class="star-primary">
-                      <img src="arcade.png" class="img-responsive modal-pic" alt="ContextAR homepage">
-                      <p>A web application that has Flappy Birds, Snake, and Space Invader</p>
-                      <p>Contribution: Implementation of Flappy Bird, Snake and Space Invader game</p>
-                      <ul class="list-inline item-details">
-                          <li><a  class= "demo-link"  href="http://ata-atac-arcade.herokuapp.com/">Try it here</a></li>
-                      </ul>
-                      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
+            <div class="modal-popup">
+              <div class="modal-body">
+                <h2 class="modal-title">Pokedex</h2>
+                <hr class="star-primary" />
+                <img
+                  src="Poke.png"
+                  class="img-responsive modal-pic"
+                  alt="ContextAR homepage"
+                />
+                <p>A Pokedex website written in Javascript</p>
+                <p>
+                  Contribution: Search feature. Retrieve Pokemons, Regions,
+                  Moves lists
+                </p>
+                <ul class="list-inline item-details">
+                  <li>
+                    <a
+                      class="demo-link"
+                      href="https://ntrung1008.github.io/FrontEnd_Pokedex/"
+                      >Try it here</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  <i class="fa fa-times"></i> Close
+                </button>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</div>
-<div class="portfolio-modal modal" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content bg-dark">
-      <div class="close-modal" data-dismiss="modal">
+    </div>
+    <div
+      class="portfolio-modal modal"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content bg-dark">
+        <div class="close-modal" data-dismiss="modal">
           <div class="lr">
-              <div class="rl">
-              </div>
+            <div class="rl"></div>
           </div>
-      </div>
-      <div class="container">
+        </div>
+        <div class="container">
           <div class="row">
-              <div class="modal-popup">
-                  <div class="modal-body ">
-                      <h2 class="modal-title">Adventure Game</h2>
-                      <hr class="star-primary">
-                      <img src="adventure.png" class="img-responsive modal-pic" alt="ContextAR homepage">
-                      <p>An adventure game written in Python</p>
-                      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
+            <div class="modal-popup">
+              <div class="modal-body">
+                <h2 class="modal-title">ATAC Arcade</h2>
+                <hr class="star-primary" />
+                <img
+                  src="arcade.png"
+                  class="img-responsive modal-pic"
+                  alt="ContextAR homepage"
+                />
+                <p>
+                  A web application that has Flappy Birds, Snake, and Space
+                  Invader
+                </p>
+                <p>
+                  Contribution: Implementation of Flappy Bird, Snake and Space
+                  Invader game
+                </p>
+                <ul class="list-inline item-details">
+                  <li>
+                    <a
+                      class="demo-link"
+                      href="http://ata-atac-arcade.herokuapp.com/"
+                      >Try it here</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  <i class="fa fa-times"></i> Close
+                </button>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</div>
-<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content bg-dark">
-      <div class="close-modal" data-dismiss="modal">
+    </div>
+    <div
+      class="portfolio-modal modal"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content bg-dark">
+        <div class="close-modal" data-dismiss="modal">
           <div class="lr">
-              <div class="rl">
-              </div>
+            <div class="rl"></div>
           </div>
-      </div>
-      <div class="container">
+        </div>
+        <div class="container">
           <div class="row">
-              <div class="modal-popup">
-                  <div class="modal-body ">
-                      <h2 class="modal-title">Snake Game</h2>
-                      <hr class="star-primary">
-                      <img src="snake_gameplay.png" class="img-responsive modal-pic" alt="ContextAR homepage">
-                      <p>A classic up to 2 players snake game written in Rust</p>
-                      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
+            <div class="modal-popup">
+              <div class="modal-body">
+                <h2 class="modal-title">Adventure Game</h2>
+                <hr class="star-primary" />
+                <img
+                  src="adventure.png"
+                  class="img-responsive modal-pic"
+                  alt="ContextAR homepage"
+                />
+                <p>An adventure game written in Python</p>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  <i class="fa fa-times"></i> Close
+                </button>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</div>
-  <script
+    </div>
+    <div
+      class="portfolio-modal modal"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content bg-dark">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="modal-popup">
+              <div class="modal-body">
+                <h2 class="modal-title">Snake Game</h2>
+                <hr class="star-primary" />
+                <img
+                  src="snake_gameplay.png"
+                  class="img-responsive modal-pic"
+                  alt="ContextAR homepage"
+                />
+                <p>A classic up to 2 players snake game written in Rust</p>
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  <i class="fa fa-times"></i> Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     ></script>
